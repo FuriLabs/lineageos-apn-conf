@@ -1,0 +1,14 @@
+Source: lineageos-apn-conf
+Section: unknown
+Priority: optional
+Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+Homepage: https://github.com/LineageOS/android_vendor_lineage/blob/lineage-20.0/prebuilt/common/etc/apns-conf.xml
+Vcs-Browser: https://github.com/FuriLabs/lineageos-apn-conf
+Vcs-Git: https://github.com/FuriLabs/lineageos-apn-conf.git
+
+Package: lineageos-apn-conf
+Architecture: all
+Depends: ${misc:Depends}
+Description: LineageOS's APN configuration
